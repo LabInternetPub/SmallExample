@@ -1,0 +1,25 @@
+###
+GET localhost:8080/hello
+
+###
+GET localhost:8080/error
+
+###
+GET localhost:8080/albums
+
+###
+GET localhost:8080/albums/title/Album 1
+
+###
+GET localhost:8080/albums/2
+
+###
+POST localhost:8080/albums
+content-type: application/json
+
+{
+  "id": 2,
+  "title": "Album 2",
+  "releaseDate": "2024-09-25T10:44:00.037419",
+  "description": "Description 2"
+}
